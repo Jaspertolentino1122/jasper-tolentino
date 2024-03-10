@@ -1,0 +1,72 @@
+/* Your Name */
+/* CSS file by Your Name */
+
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f2f2f2;
+    color: #333333;
+}
+
+table {
+    width: 85%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* Course Styling */
+.course1 {
+    background-color: #ffd966;
+    color: #333333;
+}
+
+.course2 {
+    background-color: #80d4ff;
+    color: #333333;
+}
+
+.course3 {
+    background-color: #ff6666;
+    color: #ffffff;
+}
+
+.course4 {
+    background-color: #b3ffb3;
+    color: #333333;
+}
+
+.lab {
+    font-style: italic;
+}
+
+/* Print Mode Styling */
+@media print {
+    body {
+        background-color: white;
+        color: black;
+        font-family: 'Times New Roman', serif;
+    }
+
+    table, th, td {
+        border: 1px solid black;
+        color: black;
+        background-color: white;
+    }
+
+    th {
+        font-weight: bold;
+        font-style: italic;
+    }
+}
